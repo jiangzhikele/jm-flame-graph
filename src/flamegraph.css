@@ -6,7 +6,6 @@
 .d3-flame-graph rect:hover {
   stroke: #474747;
   stroke-width: 0.5;
-  cursor: pointer;
 }
 
 .d3-flame-graph-label {
@@ -43,4 +42,8 @@
     text-align: left;
     color: white;
     z-index: 10;
+}
+
+.frame {
+    cursor: pointer;
 }

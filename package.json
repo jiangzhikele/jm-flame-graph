@@ -1,6 +1,6 @@
 {
-  "name": "d3-flame-graph",
-  "version": "4.1.3",
+  "name": "jm-flame-graph",
+  "version": "0.0.1",
   "description": "A d3.js library to produce flame graphs.",
   "main": "index.js",
   "directories": {
@@ -9,27 +9,14 @@
   "scripts": {
     "build": "webpack --mode production",
     "serve": "webpack-dev-server --mode development",
-    "lint": "eslint src test",
-    "pretest": "webpack --mode production",
-    "test": "jest",
     "prepare": "npm run test",
     "postpublish": "zip -j dist/d3-flamegraph.zip -- LICENSE README.md dist/d3-flamegraph.js dist/d3-flamegraph.min.js dist/d3-flamegraph-colorMapper.js dist/d3-flamegraph-colorMapper.min.js dist/d3-flamegraph-tooltip.js dist/d3-flamegraph-tooltip.min.js dist/d3-flamegraph.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/spiermar/d3-flame-graph.git"
   },
   "keywords": [
     "d3",
     "flamegraph",
     "performance"
   ],
-  "author": "Martin Spier <spiermar@gmail.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/spiermar/d3-flame-graph/issues"
-  },
-  "homepage": "https://github.com/spiermar/d3-flame-graph#readme",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
