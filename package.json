@@ -8,9 +8,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "serve": "webpack-dev-server --mode development",
-    "prepare": "npm run test",
-    "postpublish": "zip -j dist/d3-flamegraph.zip -- LICENSE README.md dist/d3-flamegraph.js dist/d3-flamegraph.min.js dist/d3-flamegraph-colorMapper.js dist/d3-flamegraph-colorMapper.min.js dist/d3-flamegraph-tooltip.js dist/d3-flamegraph-tooltip.min.js dist/d3-flamegraph.css"
+    "serve": "webpack-dev-server --mode development"
   },
   "keywords": [
     "d3",
